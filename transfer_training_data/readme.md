@@ -1,19 +1,21 @@
 # matlab自带网络LettersClassificationNet
 ## 网络架构
-|The layer number|Layer name|Function|The detailed information
-|---|---|---|---|---|
-1  | 'imageinput'   | Image Input      |       28x28x1images with 'zerocenter' normalization|
-2  | 'conv'        |  Convolution     |     20 5x5x1 convolutions with stride [1  1] and padding [0  0]
-3  |'relu'       |   ReLU             |       ReLU
-4  | 'maxpool'   |   Max Pooling     | 2x2 max pooling with stride [2  2] and padding [0  0]|
-5  | 'fc'         |   Fully Connected        | 3 fully connected layer
-6   |'softmax'  |    Softmax    |    softmax
-7  | 'classoutput'  | Classification Output   |crossentropyex with 'A', 'B', and 1 other classes
+
+The layer number|Layer name|Function|The detailed information
+|--|----------------|-----------------------|-------------------------------------|
+|1  | 'imageinput'   | Image Input           |     28x28x1images with 'zerocenter' normalization
+|2  | 'conv'         | Convolution           |     20 5x5x1 convolutions with stride [1  1] and padding [0  0]
+|3  |'relu'          | ReLU                  |     ReLU
+|4  | 'maxpool'      | Max Pooling           |     2x2 max pooling with stride [2  2] and padding [0  0]|
+|5  | 'fc'           | Fully Connected       |     3 fully connected layer
+|6   |'softmax'      | Softmax               |     softmax
+|7  | 'classoutput'  | Classification Output |      crossentropyex with 'A', 'B', and 1 other classes
+
 ## minibatchsize=1024
   ![](smallnet_minibatchsize=1024.png)
 - **test accuracy=98.2%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.43 |      10.3815 |        8.89% |     1.00e-04 |
     |            7 |           50 |        11.80 |       1.1990 |       80.08% |     1.00e-04 |
     |           13 |          100 |        22.97 |       0.0803 |       97.56% |     1.00e-04 |
@@ -24,7 +26,7 @@
   ![](smallnet_minibatchsize=512.png)
 - **test accuracy=96.9%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.30 |       9.0723 |       10.94% |     1.00e-04 |
     |            3 |           50 |         6.38 |       1.8000 |       79.88% |     1.00e-04 |
     |            6 |          100 |        12.70 |       0.0792 |       97.27% |     1.00e-04 |
@@ -36,7 +38,7 @@
 - ![](smallnet_minibatchsize=256.png)
 - **test accuracy=98.7%**
     |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.22 |       9.4737 |        9.38% |     1.00e-04 |
     |            2 |           50 |         3.90 |       3.8101 |       61.33% |     1.00e-04 |
     |            3 |          100 |         7.46 |       0.2313 |       96.09% |     1.00e-04 |
@@ -50,7 +52,7 @@
  ![](smallnet_minibatchsize=128.png)
 - **test accuracy=97.9%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.19 |       9.6988 |        8.59% |     1.00e-04 |
     |            1 |           50 |         2.49 |       5.2054 |       58.59% |     1.00e-04 |
     |            2 |          100 |         4.76 |       2.9492 |       73.44% |     1.00e-04 |
@@ -71,7 +73,7 @@
   ![](smallnet_minibatchsize=64.png)
 - **test accuracy=94.4%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.17 |      11.2860 |        6.25% |     1.00e-04 |
     |            1 |           50 |         1.86 |       5.0531 |       64.06% |     1.00e-04 |
     |            1 |          100 |         3.45 |       1.7705 |       84.38% |     1.00e-04 |
@@ -106,7 +108,7 @@
  ![](smallnet_minibatchsize=32.png)
 - **test accuracy=53.1%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.16 |       9.0913 |       15.63% |     1.00e-04 |
     |            1 |           50 |         1.45 |      10.0577 |       34.38% |     1.00e-04 |
     |            1 |          100 |         2.59 |       9.9640 |       37.50% |     1.00e-04 |
@@ -165,7 +167,7 @@
 ![](alexnet_minibatchsize=64.png)
 - **test accuracy=100%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         1.91 |       2.7291 |        4.69% |     1.00e-04 |
     |            1 |           50 |        92.82 |       0.7612 |       65.63% |     1.00e-04 |
     |            1 |          100 |       185.65 |       0.2581 |       92.19% |     1.00e-04 |
@@ -183,7 +185,7 @@
 ![](alexnet_minibatchsize=32.png)
 - **test accuracy=100%**
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         1.99 |       2.6998 |       15.63% |     1.00e-04 |
     |            1 |           50 |        56.63 |       0.4494 |       81.25% |     1.00e-04 |
     |            1 |          100 |       111.90 |       0.4292 |       84.38% |     1.00e-04 |
@@ -212,7 +214,7 @@
 ![](alexnet_minibatchsize=16.png)
 - **test accuracy=99.8%**
 - |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
-    |------|---------------|-----------|---------|---------|--------|---------|--------|---------|-------------|------------|
+    |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.95 |       2.3046 |       12.50% |     1.00e-04 |
     |            1 |           50 |        40.78 |       0.9377 |       62.50% |     1.00e-04 |
     |            1 |          100 |        81.85 |       0.5615 |       75.00% |     1.00e-04 |
