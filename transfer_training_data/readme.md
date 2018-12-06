@@ -14,6 +14,7 @@ The layer number|Layer name|Function|The detailed information
 ## minibatchsize=1024
   ![](smallnet_minibatchsize=1024.png)
 - **test accuracy=98.2%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.43 |      10.3815 |        8.89% |     1.00e-04 |
@@ -25,6 +26,7 @@ The layer number|Layer name|Function|The detailed information
 ## minibatchsize=512
   ![](smallnet_minibatchsize=512.png)
 - **test accuracy=96.9%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.30 |       9.0723 |       10.94% |     1.00e-04 |
@@ -37,6 +39,7 @@ The layer number|Layer name|Function|The detailed information
 ## minibatchsize=256
 - ![](smallnet_minibatchsize=256.png)
 - **test accuracy=98.7%**
+
     |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.22 |       9.4737 |        9.38% |     1.00e-04 |
@@ -51,6 +54,7 @@ The layer number|Layer name|Function|The detailed information
 ##  minibatchsize=128
  ![](smallnet_minibatchsize=128.png)
 - **test accuracy=97.9%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.19 |       9.6988 |        8.59% |     1.00e-04 |
@@ -72,6 +76,7 @@ The layer number|Layer name|Function|The detailed information
 ##  minibatchsize=64
   ![](smallnet_minibatchsize=64.png)
 - **test accuracy=94.4%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.17 |      11.2860 |        6.25% |     1.00e-04 |
@@ -107,6 +112,7 @@ The layer number|Layer name|Function|The detailed information
 ##  minibatchsize=32
  ![](smallnet_minibatchsize=32.png)
 - **test accuracy=53.1%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.16 |       9.0913 |       15.63% |     1.00e-04 |
@@ -136,6 +142,7 @@ The layer number|Layer name|Function|The detailed information
 -------------------------------
 # Alexnet
 ## 网络架构
+
 |The layer number|Layer name|Function|The detailed information
 |---|-----------|-------------------------------|-------------------------------------|
 1   |'data'     |Image Input                   |227x227x3 images with 'zerocenter' normalization
@@ -166,6 +173,7 @@ The layer number|Layer name|Function|The detailed information
 ## minibatchsize=64
 ![](alexnet_minibatchsize=64.png)
 - **test accuracy=100%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         1.91 |       2.7291 |        4.69% |     1.00e-04 |
@@ -184,6 +192,7 @@ The layer number|Layer name|Function|The detailed information
 ## minibatchsize=32
 ![](alexnet_minibatchsize=32.png)
 - **test accuracy=100%**
+
   |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         1.99 |       2.6998 |       15.63% |     1.00e-04 |
@@ -213,6 +222,7 @@ The layer number|Layer name|Function|The detailed information
 ## minibatchsize=16
 ![](alexnet_minibatchsize=16.png)
 - **test accuracy=99.8%**
+
 - |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
     |------|---------------|-----------|---------|---------|
     |            1 |            1 |         0.95 |       2.3046 |       12.50% |     1.00e-04 |
