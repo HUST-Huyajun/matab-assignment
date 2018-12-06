@@ -1,6 +1,6 @@
 function input = IMAGERESIZE(input)
 nums = numel(input.Files);
-for i=1:nums
+for i=nums:-1:1
     filepathin=input.Files{i,1};
     Imagein = imread(filepathin);
     imshow(Imagein)
@@ -14,5 +14,6 @@ for i=1:nums
     filepathout=strcat(filepathouthead,S(end-1),'\',S(end));
     filepathout=filepathout{1,1};
     imwrite(Imageout,filepathout);
-    input.Files{i,1}=filepathout;
+    fprintf('%s is done\n',filepathout);
+    %input.Files{i,1}=filepathout;
 end

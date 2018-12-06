@@ -1,3 +1,9 @@
 #trainingdata：
-*.png
 /图片集
+#github can't release
+*.mlx
+/*.mlx
+#included in transfer_learning.m
+/stopTrainingAtThreshold.m
+/plotTrainingAccuracy.m
+/*.asv
