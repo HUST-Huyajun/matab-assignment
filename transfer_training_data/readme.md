@@ -15,6 +15,7 @@
 
 ### minibatchsize=1024
 > ![](smallnet_minibatchsize=1024.png)
+> 
 > Epoch|Iteration  |Time Elapsed (seconds)|Mini-batch Loss|Mini-batch Accuracy|Base Learning Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.43 |      10.3815 |        8.89% |     1.00e-04 |
