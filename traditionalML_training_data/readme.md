@@ -51,9 +51,13 @@ Mdl = fitcecoc(X,Y,'OptimizeHyperparameters','auto',...
 > |   30 | Accept |    0.47778 |    0.73914 |    0.47778 |     0.4777 |     onevsall |    0.0013483 |       3.2567 |
 > 
 > Optimization completed.
+> 
 > MaxObjectiveEvaluations of 30 reached.
+> 
 > Total function evaluations: 30
+> 
 > Total elapsed time: 521.7604 seconds.
+> 
 > Total objective function evaluation time: 488.8007
 > 
 > Best observed feasible point:
@@ -63,7 +67,9 @@ Mdl = fitcecoc(X,Y,'OptimizeHyperparameters','auto',...
 > |onevsall  |  0.0010006  |3.9343   |  
 > 
 > Observed objective function value = 0.47778
+> 
 > Estimated objective function value = 0.4777
+> 
 > Function evaluation time = 0.64316
 > 
 > Best estimated feasible point (according to models):
