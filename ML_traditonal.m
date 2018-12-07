@@ -24,36 +24,37 @@ end
 %% 
 %分割数据
 [train_arr,train_label,test_arr,test_label] = split_train_test(data_arr,data_label,10,0.9);
-X=train_arr(1:50:9000,:);
-Y=train_label(1:50:9000,:);
+X=train_arr;
+Y=train_label;
+%%
+%全自动
+Mdl = fitcecoc(X,Y);
+%%
 %{
 机器寻优
-rng default
+rng default;
 Mdl = fitcecoc(X,Y,'OptimizeHyperparameters','auto',...
     'HyperparameterOptimizationOptions',struct('AcquisitionFunctionName',...
     'expected-improvement-plus'))
-isLoss = resubLoss(Mdl)
 %}
 
 %%
 %线性核函数
 %{
 t = templateLinear('Lambda',0.008');
-Mdl = fitcecoc(X',Y,'Learners',t,'ObservationsIn','columns')
-Mdl = fitcecoc(X,Y)
+Mdl = fitcecoc(X',Y,'Learners',t,'ObservationsIn','columns');
 %}
 %%
 %{
 %普通核函数
-t = templateSVM('Standardize',1)
-% Train the ECOC classifier.  It is good practice to specify the class
+t = templateSVM('Standardize',1);
 Mdl = fitcecoc(X,Y,'Learners',t);
 %}
-%% 
+%% 测试集合准确率
 y_pred=predict(Mdl,test_arr);
 accuracy = sum(y_pred==test_label)/numel(y_pred);
 fprintf("test accuracy=%.1f%%\n",accuracy*100);
-%% 
+%% 将总数据分割出训练集和测试集
 function [X_train, y_train,  X_test, y_test] = split_train_test(X, y, k, ratio)
 %SPLIT_TRAIN_TEST 分割训练集和测试集
 %  参数X是数据矩阵 y是对应类标签 k是类别个数 ratio是训练集的比例
