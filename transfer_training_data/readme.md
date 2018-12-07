@@ -28,6 +28,7 @@
 
 ### minibatchsize=512
 > ![](smallnet_minibatchsize=512.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.30 |       9.0723 |       10.94% |     1.00e-04 |
@@ -41,6 +42,7 @@
 
 ### minibatchsize=256
 > ![](smallnet_minibatchsize=256.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.22 |       9.4737 |        9.38% |     1.00e-04 |
@@ -56,6 +58,7 @@
 
 ###  minibatchsize=128
 > ![](smallnet_minibatchsize=128.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.19 |       9.6988 |        8.59% |     1.00e-04 |
@@ -78,6 +81,7 @@
 
 ###  minibatchsize=64
 > ![](smallnet_minibatchsize=64.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.17 |      11.2860 |        6.25% |     1.00e-04 |
@@ -114,6 +118,7 @@
 
 ###  minibatchsize=32
 > ![](smallnet_minibatchsize=32.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.16 |       9.0913 |       15.63% |     1.00e-04 |
@@ -178,6 +183,7 @@
 ### minibatchsize=64
 
 > ![](alexnet_minibatchsize=64.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         1.91 |       2.7291 |        4.69% |     1.00e-04 |
@@ -198,6 +204,7 @@
 
 ### minibatchsize=32
 > ![](alexnet_minibatchsize=32.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         1.99 |       2.6998 |       15.63% |     1.00e-04 |
@@ -229,6 +236,7 @@
 
 ### minibatchsize=16
 > ![](alexnet_minibatchsize=16.png)
+> 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
 > |            1 |            1 |         0.95 |       2.3046 |       12.50% |     1.00e-04 |
