@@ -16,6 +16,7 @@ Mdl = fitcecoc(X,Y,'OptimizeHyperparameters','auto',...
     'expected-improvement-plus'));
 ```
 > ![](autoforparament.png)
+> 
 > | Iter | Eval result| Objective | Objective runtime | BestSoFar (observed)| BestSoFar (estim.) |Coding | BoxConstraint| 
 > |------|------------|-----------|------------------|----------------------|-------------------|-------|---------------|
 > |    1 | Best   |       0.65 |     1.4411 |       0.65 |      0.65 |     onevsall |    0.0089562 |       310.42 |
@@ -56,6 +57,7 @@ Mdl = fitcecoc(X,Y,'OptimizeHyperparameters','auto',...
 > Total objective function evaluation time: 488.8007
 > 
 > Best observed feasible point:
+> 
 > |Coding     |BoxConstraint    |KernelScale|
 > | -------  |  -------   | -------|
 > |onevsall  |  0.0010006  |3.9343   |  
@@ -65,6 +67,7 @@ Mdl = fitcecoc(X,Y,'OptimizeHyperparameters','auto',...
 > Function evaluation time = 0.64316
 > 
 > Best estimated feasible point (according to models):
+> 
 > |Coding     |BoxConstraint    |KernelScale|
 > | -------  |  -------   | -------|
 > |onevsall   | 0.0013483   |     3.2567     |
