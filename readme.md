@@ -22,7 +22,7 @@
 1. 选择数据集：matlab自带数据集：DigitDataset
     - 数据规模：0-9各1000个，综合10000个
 
-2. 初始数据为28x28x1的图片，为了适应后续Alexnet的输入，将其变换到127下27*3的大小
+2. 初始数据为28x28x1的图片，为了适应后续Alexnet的输入，将其变换到127x127x3的大小
 
 3. 训练LettersClassificationNet，记录训练数据
 
@@ -42,10 +42,10 @@
 ## 实验结果
 
 | Types of algorithms | Training time(order of magnitude)(once) | Test accuracy(best) |
-| ------------------- | --------------------------------------- | ------------------- |
-| transfer_LCnet      | 30s  (Gpu)                                     | 98.7%               |
-| transfer_Alexnet    | 1000s  (Gpu)                                   | 100%                |
-| traditional_SVM     | 30s (cpu)                                     | 87.9%               |
+| ------------------- | ------------ | ------------------- |
+| transfer_LCnet      | 30s  (gpu)   | 98.7%               |
+| transfer_Alexnet    | 1000s  (gpu) | 100%                |
+| traditional_SVM     | 30s (cpu)    | 87.9%               |
 
 ## 实验结论
 
