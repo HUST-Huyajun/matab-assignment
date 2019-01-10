@@ -91,3 +91,14 @@
 
 - [迁移学习](./transfer_learning.m)
 - [传统机器学习](./ML_traditonal.m)
+
+## kaggle竞赛结果
+- [比赛地址](https://www.kaggle.com/c/digit-recognizer)
+- minibatch=64
+- 数据集大小：trainsize=42000 testsize=28000
+- 训练时间：Epoch=5大约7000s(gpu)
+- 比赛成绩：0.99314 (809/2691) at date:2019/01/10
+- conclusion
+  - 迁移学习在大数据下还是需要好硬件加速。。。
+  - 还是有很好的优化空间和参数选择
+  - 因为minibatch相对于trainsize很小，有条件应该加大minibatchsize或者减小learningrate
