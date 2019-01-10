@@ -15,7 +15,8 @@
 > |7  | 'classoutput'  | Classification Output |      crossentropyex with 'A', 'B', and 1 other classes
 
 ### minibatchsize=1024
-> ![](smallnet_minibatchsize=1024.png)
+> 
+> ![](./smallnet_minibatchsize=1024.png)
 > 
 > Epoch|Iteration  |Time Elapsed (seconds)|Mini-batch Loss|Mini-batch Accuracy|Base Learning Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -28,7 +29,8 @@
 - **test accuracy=98.2%**
 
 ### minibatchsize=512
-> ![](smallnet_minibatchsize=512.png)
+> 
+> ![](./smallnet_minibatchsize=512.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -42,7 +44,8 @@
 - **test accuracy=96.9%**
 
 ### minibatchsize=256
-> ![](smallnet_minibatchsize=256.png)
+> 
+> ![](./smallnet_minibatchsize=256.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -58,7 +61,8 @@
 - **test accuracy=98.7%**
 
 ###  minibatchsize=128
-> ![](smallnet_minibatchsize=128.png)
+> 
+> ![](./smallnet_minibatchsize=128.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -81,7 +85,8 @@
 - **test accuracy=97.9%**
 
 ###  minibatchsize=64
-> ![](smallnet_minibatchsize=64.png)
+> 
+> ![](./smallnet_minibatchsize=64.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -118,7 +123,8 @@
 - **test accuracy=94.4%**
 
 ###  minibatchsize=32
-> ![](smallnet_minibatchsize=32.png)
+> 
+> ![](./smallnet_minibatchsize=32.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -182,8 +188,8 @@
 > 25   |'output'   |Classification Output         |crossentropyex with 'tench', 'goldfish', and 998 other classes
 
 ### minibatchsize=64
-
-> ![](alexnet_minibatchsize=64.png)
+> 
+> ![](./alexnet_minibatchsize=64.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -204,7 +210,8 @@
 - **test accuracy=100%**
 
 ### minibatchsize=32
-> ![](alexnet_minibatchsize=32.png)
+> 
+> ![](./alexnet_minibatchsize=32.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
@@ -236,7 +243,8 @@
 - **test accuracy=100%**
 
 ### minibatchsize=16
-> ![](alexnet_minibatchsize=16.png)
+> 
+> ![](./alexnet_minibatchsize=16.png)
 > 
 > |Epoch    |Iteration  |Time Elapsed (seconds) |             Mini-batch Loss |Mini-batch Accuracy  | Base Learning      Rate     
 > |------|---------------|-----------|---------|---------|--------|
